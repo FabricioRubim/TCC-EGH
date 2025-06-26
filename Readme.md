@@ -2,7 +2,9 @@
 ## ♻ PROJETO TCC - ECOHARDGREEN 
 
 **Nome da consultoria (Grupo):** [EcoWiseLab]
+
 **Site:** EcoHardGreen
+
 **Tema:** Desenvolvemos um site para fins ecologicos de hardware e cursos.
 
 ---
