@@ -14,7 +14,7 @@
 A **EcoHardGreen** é um site de conscientização para fins educacionais, um curso que pode lhe ensinar que peças como por exemplo: **Celular**, **PC**, **Notebook**, **Tablet** e etc.
 Podem ser reutilizadas e recicladas de maneira correta sem prejudicar o meio ambiente no geral, além de ser mais econômico.
 
-O site conta um pouco sobre a nossa *historia* e o que o curso pode te proporcionar e ajudar nessa questão do *meio ambiente*, enquanto tem uma experiencia incrível com recibimento de certificado, além disso refletir sobre como isso impacta em nossa sociedade.
+O site conta um pouco sobre a nossa **historia** e o que o curso pode te proporcionar e ajudar nessa questão do **meio ambiente**, enquanto tem uma experiencia incrível com recibimento de certificado, além disso refletir sobre como isso **impacta** em nossa **sociedade**.
 
 ---
 
