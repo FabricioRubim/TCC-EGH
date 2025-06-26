@@ -1,0 +1,56 @@
+/* === Responsividade geral === */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  header .wrapper {
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-eco {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .curso-container {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .carousel-inner img {
+    max-height: 250px;
+    object-fit: cover;
+  }
+}
+
+/* === Para celulares menores (até 480px) === */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-inner img {
+    display: none; /* Oculta imagens se carregar no celular e for pesado */
+  }
+
+  .botao-inscreva {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+/* === Previne imagens quebradas com fallback === */
+img:not([src]) {
+  display: none;
+}
+
+img.broken {
+  display: none;
+}
