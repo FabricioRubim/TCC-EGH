@@ -1,0 +1,216 @@
+:root {
+    --cor-primaria: #4CAF50;
+    --cor-secundaria: #8BC34A;
+    --cor-fundo-claro: #FFFFFF;
+    --cor-fundo-escuro: #F0F0F0;
+    --cor-texto-claro: #FFFFFF;
+    --cor-texto-escuro: #333333;
+}
+
+body {
+    line-height: 1.7;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.curso-container p {
+    text-align: justify;
+}
+
+/* Override no modo escuro */
+body.dark-mode {
+    --cor-fundo-claro: #333333;
+    --cor-texto-escuro: #f0f0f0;
+}
+
+body.dark-mode .curso-container {
+    background-color: #222;
+}
+
+/* ================ Reset & Globais ================ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: var(--cor-fundo-claro);
+    color: var(--cor-texto-escuro);
+    font-family: "Oswald", sans-serif;
+    line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -40px;
+    padding: 0 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* =================== Header =================== */
+header {
+    height: 70px;
+    background: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    padding: 1rem 0;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-eco {
+    height: 120px;
+    width: auto;
+    filter: brightness(250%);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: var(--cor-texto-claro);
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: var(--cor-secundaria);
+    transition: width .3s;
+}
+
+nav a:hover::after {
+    width: 100%
+}
+
+#toggle-mode {
+    background: var(--cor-secundaria);
+    color: var(--cor-texto-claro);
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.botao-voltar {
+    margin: 15px;
+    padding: 8px 12px;
+    font-size: 22px;
+}
+
+#inicio-img {
+    width: 28px;
+    padding: 0px;
+    margin: -2px;
+}
+
+/* Conteúdo do curso */
+.curso-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.curso-container h1 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.curso-container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.curso-container p strong {
+    color: #2e7d32;
+}
+
+@media (max-width: 600px) {
+    .curso-container {
+        padding: 20px;
+    }
+
+    .curso-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .botao-voltar {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+.curso-container {
+    transition: box-shadow 0.3s ease;
+}
+
+.curso-container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão "se inscreva" */
+.botao-inscreva {
+    background: var(--cor-primaria);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background .3s, transform .3s;
+}
+
+.botao-inscreva:hover {
+    background: var(--cor-secundaria);
+    transform: scale(1.05);
+}
+
+.imagem {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-img {
+    height: 200px;
+    /* Defina a altura que deseja para todas as imagens */
+    object-fit: cover;
+    /* As imagens são cortadas para preencher a área definida */
+}
+
+/* FOOTER */
+footer {
+    background: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0rem;
+}
