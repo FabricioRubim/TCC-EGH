@@ -2,6 +2,9 @@
 
 /* Dispositivos muito pequenos: até 480px (celulares antigos ou compactos) */
 @media (max-width: 480px) {
+     body {
+        overflow-x: hidden;
+    }
     .hero h1 {
         font-size: 1.8rem;
     }
@@ -27,6 +30,9 @@
 
 /* Dispositivos pequenos: até 768px (smartphones grandes e tablets pequenos) */
 @media (max-width: 768px) {
+     body {
+        overflow-x: hidden;
+    }
     header h1 {
         font-size: 1.8em;
     }
@@ -50,6 +56,9 @@
 
 /* Dispositivos médios: até 1024px (tablets e notebooks pequenos) */
 @media (max-width: 1024px) {
+     body {
+        overflow-x: hidden;
+    }
     .hero h1 {
         font-size: 2rem;
     }
@@ -65,6 +74,9 @@
 
 /* Dispositivos grandes: telas médias como notebooks e desktops menores */
 @media (max-width: 1280px) {
+     body {
+        overflow-x: hidden;
+    }
     .wrapper {
         padding: 0 1.5rem;
     }
@@ -84,6 +96,9 @@ img,
 
 /* Evita que imagens sobrecarreguem em conexões lentas */
 @media (max-width: 768px) {
+     body {
+        overflow-x: hidden;
+    }
     
     .image-col img {
         display: none;
