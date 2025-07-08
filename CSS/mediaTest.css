@@ -1,4 +1,7 @@
 @media (max-width: 410px) {
+     body {
+        overflow-x: hidden;
+    }
     header {
         flex-direction: column;
         justify-content: center;
@@ -29,7 +32,9 @@
 
 /* Estilo para tablets em diante */
 @media (min-width: 768px) {
-    
+     body {
+        overflow-x: hidden;
+    }
     .footer-container {
         flex-direction: row;
         justify-content: space-between;
@@ -63,6 +68,9 @@
 
 /* Estilo para desktop */
 @media (min-width: 1024px) {
+     body {
+        overflow-x: hidden;
+    }
     .titulo-eco {
         font-size: 4rem;
     }
@@ -91,6 +99,9 @@
 }
 
 @media (min-width: 1200px) {
+     body {
+        overflow-x: hidden;
+    }
     .titulo-eco {
         font-size: 4rem;
     }
@@ -117,6 +128,9 @@
 
 /* menu fechado por padrão em telas pequenas */
 @media (max-width: 767px) {
+     body {
+        overflow-x: hidden;
+    }
     .hamburger {
         display: block;
     }
