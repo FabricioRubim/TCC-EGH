@@ -16,6 +16,17 @@
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+    --cor-primaria: #419131;
+    --cor-secundaria: #8BC34A;
+    --cor-fundo-claro: #FFFFFF;
+    --cor-fundo-escuro: #F0F0F0;
+    --cor-texto-claro: #FFFFFF;
+    --cor-texto-escuro: #333333;
+}
+}
+
 /* Estilo para tablets em diante */
 @media (min-width: 768px) {
     
